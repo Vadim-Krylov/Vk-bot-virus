@@ -17,7 +17,7 @@ i = 0
 
 total_notepads = []
 
-token = "36681f9b6eddf6750cf45065b874531e852d416c1b0affa727b845f3b312b724161f1872d222186637215" #set your vk-group token
+token = "" #set your vk-group token
 vk = vk_api.VkApi(token=token)
 vk._auth_token()
 
