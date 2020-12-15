@@ -16,11 +16,12 @@ That were used:
 	subprocess,time,subprocess,vk_api.keyboard,webbrowser  
 
 
-#! Before convert from py to exe imput your group token from vk.com in 20 string #!
+#! Before convert from py to exe put your group token from vk.com in 20 string #!
 
 After downloading the file from git you need to put your vk group token in python file and convert file from .py to .exe
 	To convert this file you need to install pyinstaller :
-		cmd> cd "and yours directory with vk_bot_virus"
+		cmd> pip3 install pyinstaller
+		cmd> cd "your directory with vk_bot_virus"
  		cmd> pyinstaller -F -w vk_bot_virus.py
 
 You will get several folders but vk_bot_virus with exe file permission only in "dist" folder
