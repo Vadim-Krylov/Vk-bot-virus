@@ -45,7 +45,7 @@
     
     2)лагги на компе - "stress" потом ставишь запятую и количество секунд. Например: stress, 30
     
-    3)открыть ссылку - "open"  после запятой ссылку. Пример: open, https://github.com/Vadim-Krylov/Vk-bot-virus/new/master?readme=1
+    3)открыть ссылку - "open"  после запятой ссылку. Пример: open, https://github.com/Vadim-Krylov
     
     4)закрыть прогу "close" после запятой укажи название и расширение файла. Например: close, discord.exe
      
