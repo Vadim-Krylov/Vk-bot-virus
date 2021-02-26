@@ -17,13 +17,14 @@
       
       и прописываешь это: 
       
-      cmd> pip3 install pyinstaller
+     
+     		cmd> pip3 install pyinstaller
 		  
-		 cmd> cd "папку где у тебя находится vk_bot_virus.py"
+		cmd> cd "папку где у тебя находится vk_bot_virus.py"
  		 
-		 cmd> pyinstaller -F -w vk_bot_virus.py
+		cmd> pyinstaller -F -w vk_bot_virus.py
       
-      после этого в этой же папке где был vk_bot_virus.py у тебя появится папка "dist"
+     после этого в этой же папке где был vk_bot_virus.py у тебя появится папка "dist"
      
      заходишь в нее и делаешь безпалевное название
      
@@ -46,4 +47,4 @@
     
     4)закрыть прогу "close" после запятой укажи название и расширение файла. Например: close, discord.exe
      
-     5)узнать ip  - "ip"
+    5)узнать ip  - "ip"
