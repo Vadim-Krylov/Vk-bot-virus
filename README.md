@@ -20,7 +20,7 @@
       и прописываешь это: 
       
      
-     		cmd> pip3 install pyinstaller
+     	cmd> pip3 install pyinstaller
 		  
 		cmd> cd "папку где у тебя находится vk_bot_virus.py"
  		 
